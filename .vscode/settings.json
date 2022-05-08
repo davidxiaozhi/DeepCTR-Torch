@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": ["${workspaceFolder}/deepctr_torch"],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/deepctr_torch"
+    ],
+    "jupyter.jupyterServerType": "local",
+    "terminal.integrated.env.osx": {"PYTHONPATH": "${workspaceFolder}${pathSeparator}${env:PYTHONPATH}"}
+}
