@@ -97,6 +97,10 @@ def get_feature_names(feature_columns):
 
 
 def build_input_features(feature_columns):
+    """Return OrderedDict: {feature_name:(start, start+dimension)}.
+    
+        基于feature_columns生成feature_index
+    """
     # Return OrderedDict: {feature_name:(start, start+dimension)}
 
     features = OrderedDict()
